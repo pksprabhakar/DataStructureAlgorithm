@@ -97,4 +97,15 @@ public class Leetcode34problem {
         return position;
     }
 
+    //mistakes:
+    // 1. not handling the case when target is not present in the array
+    // 2. not returning -1 when target is not found
+    // 3. not considering edge cases like empty array
+    // 4. not optimizing the search to find first and last positions in a single pass
+    // 5. not using a separate variable to store the found position
+    // 6. not adjusting the search boundaries after finding a match
+    // 7. not returning the correct indices when target is found
+    // 8. not handling duplicates correctly
+    // 9. not testing with various test cases to ensure correctness
+
 }
